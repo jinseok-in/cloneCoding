@@ -8,7 +8,7 @@ const config = require("./server/config/keys");
 // mongoose.connect(config.mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
 //   .then(() => console.log('MongoDB Connected...'))
 //   .catch(err => console.log(err));
-
+// helllo Jinseok
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
